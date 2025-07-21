@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+        <title>Lalitha's Page</title>
+        <style>
+            .container1
+            {
+                display:flex;
+                justify-content: center;
+                padding: 10px;
+            }
+            .lights
+            {
+                text-align: center;
+                margin: 20px;
+                background-color: blueviolet;
+                width: 100px;
+                height: 50px;
+                border-radius: 200px;
+            }
+            .allLights
+            {
+                background-color: black;
+                border: 30px;
+                padding-bottom: 40px;
+                padding-top: 20px;
+                border-radius: 20px;
+                height: 200px;
+                width: 100px;
+            }
+            .red
+            {
+                background-color: gray;
+                border-radius: 100px;
+                margin: 30px;
+                display: flex;
+                flex-direction: column;
+                height: 45px;
+                width: 45px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1><center>Traffic Light</center></h1>
+        <div class="container1">
+            <div class="allcolours">
+                <div>
+                    <div><button id="b1" class="lights">Stop</button></div>
+                    <div><button id="b2" class="lights">Ready</button></div>
+                    <div><button id="b3" class="lights">Go</button></div>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="allLights">
+                        <button id="c1" class="red"></button>
+                        <button id="c2" class="red"></button>
+                        <button id="c3" class="red"></button>
+                </div>
+            </div>
+        </div>
+        <script src="lights.js"></script>
+    </body>
+</html>
